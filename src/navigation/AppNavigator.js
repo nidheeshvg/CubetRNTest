@@ -24,6 +24,7 @@ const AppNavigator = () => {
       screenOptions={{
         gestureEnabled: false,
         animation: 'slide_from_right',
+        headerShown: false,
       }}>
       <AppStack.Screen name="Login" component={LoginScreen} />
     </AppStack.Navigator>

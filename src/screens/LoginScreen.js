@@ -21,9 +21,7 @@ import {
 const LoginScreen = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text>hi</Text>
-      </View>
+      <StatusBar barStyle="dark-content" backgroundColor={'white'} />
     </SafeAreaView>
   );
 };
