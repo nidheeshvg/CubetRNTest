@@ -61,7 +61,10 @@ const LoginScreen = ({navigation}) => {
       return;
     }
     if (email != StaticUserName || password != StaticPassword) {
-      Toast.show('Invalid Credentials');
+      Toast.show(
+        'Invalid Credentials. use static credentials TestUser@gmail.com and Test@123',
+        5000,
+      );
       return;
     } else {
       dispatch(setUserLoggedIn(true));
